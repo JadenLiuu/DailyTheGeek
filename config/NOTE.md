@@ -37,6 +37,8 @@
     - Directly get all the `sections` in the config file.
 - config.`has_section`(`section`)
     - Check if we have `section` in the config.
+- section.`get`(`option`)
+    - Get the result of config[`section`][`option`]
 
 ### Read from string
 - Maybe you would want to use string config defined in your python script.

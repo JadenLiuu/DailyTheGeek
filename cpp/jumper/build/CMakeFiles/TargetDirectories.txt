@@ -1,0 +1,3 @@
+/home/jadenliu/code/DailyTheGeek/cpp/jumper/build/CMakeFiles/rebuild_cache.dir
+/home/jadenliu/code/DailyTheGeek/cpp/jumper/build/CMakeFiles/edit_cache.dir
+/home/jadenliu/code/DailyTheGeek/cpp/jumper/build/CMakeFiles/jumper.bin.dir

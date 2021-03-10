@@ -1,5 +1,8 @@
 # Daily the Geek
 
-## Notes
-[config](https://github.com/JadenLiuu/Tilpy/blob/main/config/NOTE.md "Config") \
-[concurrency](https://github.com/JadenLiuu/Tilpy/blob/main/concurrency/NOTE.md "Concurrency")
+## Notes for Python
+[config](./py/config/NOTE.md "Config") \
+[concurrency](./py/concurrency/NOTE.md "Concurrency")
+
+## Notes for Cpp
+[jumping_rabbit](./cpp/jumper/) \

@@ -3,6 +3,8 @@
 #endif
 
 #include <iostream>
+#include <Jumper.h>
+
 using namespace std;
 int main(int argc, char* argv[]){
 

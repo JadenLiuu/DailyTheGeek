@@ -6,3 +6,4 @@
 *.pyc
 *.vscode
 build/CMakeFiles/*
+build/*

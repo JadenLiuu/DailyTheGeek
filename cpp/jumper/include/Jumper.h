@@ -1,8 +1,7 @@
 #ifndef JUMPER_H
 #define JUMPER_H
 
-// #define NDEBUG
-#include <assert.h>
+#include <Jumper.h>
 #include <Graph.h>
 #include <queue>
 using namespace std;

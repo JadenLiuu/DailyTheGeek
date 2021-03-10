@@ -5,5 +5,9 @@
 *.out
 *.pyc
 *.vscode
+*.log
+*.dir
 build/CMakeFiles/*
+CMakeFiles/*
 build/*
+Makefile

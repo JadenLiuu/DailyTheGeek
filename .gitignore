@@ -11,3 +11,5 @@ build/CMakeFiles/*
 CMakeFiles/*
 build/*
 Makefile
+*.db
+*.sqlite3

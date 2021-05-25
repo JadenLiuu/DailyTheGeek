@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import keyring
+from django.core.management.utils import get_random_secret_key
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -21,12 +22,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = keyring.get_password('jaBotden', 'secret')
+SECRET_KEY = get_random_secret_key()
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['{keyring.get_password('jaBotden', 'url')}.ngrok.io']
+ALLOWED_HOSTS = ['ca08831d1ca5.ngrok.io']
 LINE_CHANNEL_ACCESS_TOKEN = keyring.get_password('line', 'token')
 LINE_CHANNEL_SECRET = keyring.get_password('line', 'id')
 
@@ -80,7 +81,7 @@ WSGI_APPLICATION = 'notifier.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR / 'jabotdb.db',
     }
 }
 

@@ -5,4 +5,7 @@
 [concurrency](./py/concurrency/NOTE.md "Concurrency")
 
 ## Notes for Cpp
-[jumping_rabbit](./cpp/jumper/NOTE.md) \
+[jumping_rabbit](./cpp/jumper/NOTE.md) 
+
+## Coding Pracices
+[string related questions](./py/interview/questions/str_related.py)
